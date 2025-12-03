@@ -1,5 +1,5 @@
-import { toolCategories } from '../data/toolsData';
-import { marketingTools, contentTools, businessTools } from '../data/toolsDataPart2';
+import { toolCategories } from '@/data/toolsData';
+import { marketingTools, contentTools, businessTools } from '@/data/toolsDataPart2';
 
 export default function ToolsShowcase() {
   const allCategories = [marketingTools, ...toolCategories, contentTools, businessTools];
