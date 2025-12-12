@@ -13,8 +13,6 @@ import FounderSection from './FounderSection';
 import BlogSection from './BlogSection';
 import FAQSection from './FAQSection';
 import DemoCallSection from './DemoCallSection';
-import AEOOptimization from './AEOOptimization';
-import KeywordOptimization from './KeywordOptimization';
 import Footer from './Footer';
 import WhatsAppWidget from './WhatsAppWidget';
 import CookieConsent from './CookieConsent';
@@ -37,9 +35,7 @@ export default function AppLayout() {
       <BlogSection />
       <FAQSection />
       <DemoCallSection />
-      {/* AEO and keyword content moved here to keep them below main content and avoid top-page clutter */}
-      <KeywordOptimization />
-      <AEOOptimization />
+      {/* AEO and keyword components removed from layout to avoid rendering raw content above the footer. Files retained for future use. */}
       <Footer />
       <WhatsAppWidget />
       <CookieConsent />
