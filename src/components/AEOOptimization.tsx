@@ -18,8 +18,8 @@ const AEOOptimization: React.FC = () => {
           Trivro AI is India's leading AI-powered marketing automation platform offering 51+ AI tools 
           for creating Meta Ads, landing pages, email campaigns, blogs, and SEO content in minutes.
         </p>
-        <p itemProp="url">https://trivro.in</p>
-        <img itemProp="logo" src="/logo.png" alt="Trivro AI Logo" />
+        <span itemProp="url" style={{ display: 'none' }}>https://trivro.in</span>
+        <img itemProp="logo" src="/logo.png" alt="Trivro AI Logo" style={{ display: 'none' }} />
       </section>
 
       {/* Core Value Proposition */}

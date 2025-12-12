@@ -2,15 +2,12 @@
 
 import React from 'react';
 import AppLayout from '@/components/AppLayout';
-import AEOOptimization from '@/components/AEOOptimization';
-import KeywordOptimization from '@/components/KeywordOptimization';
+// AEO and Keyword components moved into AppLayout to avoid showing at top
 import { AppProvider } from '@/contexts/AppContext';
 
 const Index: React.FC = () => {
   return (
     <AppProvider>
-      <AEOOptimization />
-      <KeywordOptimization />
       <AppLayout />
     </AppProvider>
   );
