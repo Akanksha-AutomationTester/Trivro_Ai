@@ -29,11 +29,12 @@ export default function CustomAISection() {
           </div>
 
           <div className="relative">
-            <div className="absolute inset-0 bg-gradient-to-r from-[#00D4FF] to-[#00FFA3] rounded-3xl blur-3xl opacity-20"></div>
-            <img 
-              src="https://d64gsuwffb70l.cloudfront.net/692924af1d5f99a872fdbc9c_1764304175579_eb397ee4.webp" 
-              alt="Custom AI Development" 
-              className="relative rounded-3xl shadow-2xl border border-white/10"
+            <div className="absolute inset-0 bg-gradient-to-r from-[#00D4FF] to-[#00FFA3] rounded-3xl blur-3xl opacity-20" aria-hidden="true"></div>
+            {/* Image removed per request; keep a styled placeholder to preserve layout */}
+            <div
+              className="relative rounded-3xl shadow-2xl border border-white/10 bg-gradient-to-b from-[#07112a] to-[#0a1b2e]"
+              style={{height: '320px'}}
+              aria-hidden="true"
             />
           </div>
         </div>
