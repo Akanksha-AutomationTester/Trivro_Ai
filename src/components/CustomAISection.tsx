@@ -4,8 +4,8 @@ export default function CustomAISection() {
       <div className="absolute inset-0 bg-gradient-to-r from-[#00D4FF]/10 to-[#00FFA3]/10"></div>
       
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div>
+        <div className="grid grid-cols-1 gap-12 items-center">
+          <div className="max-w-3xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-[#00D4FF] to-[#00FFA3] bg-clip-text text-transparent">
               Get Your Own Custom AI App
             </h2>
@@ -26,16 +26,6 @@ export default function CustomAISection() {
             <a href="mailto:support@trivro.in" className="inline-block px-8 py-4 bg-gradient-to-r from-[#00D4FF] to-[#00FFA3] text-[#0A0E27] font-bold rounded-lg hover:shadow-2xl hover:shadow-[#00D4FF]/50 transition">
               Request Custom AI App
             </a>
-          </div>
-
-          <div className="relative">
-            <div className="absolute inset-0 bg-gradient-to-r from-[#00D4FF] to-[#00FFA3] rounded-3xl blur-3xl opacity-20" aria-hidden="true"></div>
-            {/* Image removed per request; keep a styled placeholder to preserve layout */}
-            <div
-              className="relative rounded-3xl shadow-2xl border border-white/10 bg-gradient-to-b from-[#07112a] to-[#0a1b2e]"
-              style={{height: '320px'}}
-              aria-hidden="true"
-            />
           </div>
         </div>
       </div>
