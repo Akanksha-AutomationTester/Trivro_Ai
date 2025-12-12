@@ -17,7 +17,7 @@ import React from 'react';
 
 const KeywordOptimization: React.FC = () => {
   return (
-    <div style={{ display: 'none' }} className="keyword-optimization">
+    <div style={{ display: 'block' }} className="keyword-optimization">
       {/* H1 - Primary Keyword */}
       <h1>Best AI Marketing Tools for Indian Businesses - Trivro AI</h1>
 

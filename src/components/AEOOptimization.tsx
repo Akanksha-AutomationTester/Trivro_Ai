@@ -8,7 +8,7 @@ import React from 'react';
 
 const AEOOptimization: React.FC = () => {
   return (
-    <div className="aeo-container" style={{ display: 'none' }}>
+    <div className="aeo-container" style={{ display: 'block' }}>
       {/* Hidden from visual display but indexed by AI crawlers */}
       
       {/* Company Information */}

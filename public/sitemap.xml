@@ -37,4 +37,11 @@
     <priority>0.7</priority>
     <mobile:mobile/>
   </url>
+  <url>
+    <loc>https://trivro.in/best-ai-marketing-tools/</loc>
+    <lastmod>2025-12-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <mobile:mobile/>
+  </url>
 </urlset>
